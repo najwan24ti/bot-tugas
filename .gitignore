@@ -1,0 +1,18 @@
+# Library (dipasang ulang dengan npm install)
+node_modules/
+
+# RAHASIA - jangan pernah di-upload
+.env
+credentials.json
+token.json
+auth_wa/
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Data pribadi bot (keuangan, pengingat, file, backup, catatan tugas)
+data/
+state.json
+
+# File sementara
+*.tmp
+*.zip

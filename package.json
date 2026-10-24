@@ -1,0 +1,21 @@
+{
+  "name": "bot-tugas-classroom",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp pengingat tugas Google Classroom",
+  "main": "src/index.js",
+  "scripts": {
+    "login": "node src/login.js",
+    "cek": "node src/cek.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "googleapis": "^144.0.0",
+    "node-cron": "^3.0.3",
+    "pino": "^10.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
